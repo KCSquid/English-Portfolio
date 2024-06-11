@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+* {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+  color: #02050c;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f5fd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.intro {
+  /* left: 50%; */
+  /* position: absolute; */
+  /* transform: translateX(-50%); */
+  width: 100vw;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 4.1vw;
+  /* margin: 10px; */
+  position: absolute;
+  left: 50%;
+  /* top: 20%; */
+  transform: translateX(-50%);
+}
+
+#titleGrad {
+  /* left: 75%; */
+  top: 10%;
+  /* text-decoration: underline; */
+}
+
+.gradient {
+  background-image: linear-gradient(#2e54da, #e87fe4);
+  background-size: 100%;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradientYellow {
+  background-image: linear-gradient(#E74C3C, #F4D03F);
+  background-size: 100%;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradientGreen {
+  background-image: linear-gradient(#82E0AA, #28B463);
+  background-size: 100%;
+  background-clip: text;
+  color: transparent;
+}
+
+#titlebottom {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 20%;
+}
+
+.section {
+  position: absolute;
+  width: 50%;
+  font-size: 1.5vw;
+  transform: translate(-50%, -50%);
+}
+
+.paragraphLeft {
+  width: 100%;
+  left: 0;
+  position: absolute;
+  font-size: 1vw;
+  text-align: justify;
+}
+
+.paragraphRight {
+  width: 100%;
+  right: 0;
+  position: absolute;
+  font-size: 1vw;
+  text-align: justify;
+  text-align-last: right;
+}
+
+.sectionA {
+  left: 35%;
+  top: 50%;
+  text-align: left;
+}
+
+.sectionB {
+  left: 65%;
+  top: 85%;
+  text-align: right;
+}
+
+.sectionC {
+  left: 35%;
+  top: 140%;
+  text-align: left;
+}
+
+.sectionD {
+  left: 65%;
+  top: 180%;
+  text-align: right;
+}
+
+.sectionE {
+  left: 35%;
+  top: 215%;
+  text-align: left;
+}
+
+.sectionF {
+  left: 65%;
+  top: 250%;
+  text-align: right;
+}
+
+.sectionG {
+  left: 35%;
+  top: 290%;
+  text-align: left;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+}
+
+#storybook {
+  right: 105%;
+}
+
+#messy {
+  left: 105%;
+  width: 30vw;
+  height: 15vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bottom {
+  position: absolute;
+  height: 327vh;
+  width: 1%;
+  pointer-events: none;
+  overflow-x: hidden;
+}
