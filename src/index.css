@@ -15,7 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f1f5fd;
+  background-color: #FCF3CF;
 }
 
 code {
@@ -51,6 +51,7 @@ code {
   background-size: 100%;
   background-clip: text;
   color: transparent;
+  text-shadow: 0 0 70px #2e54da;
 }
 
 .gradientYellow {
@@ -58,6 +59,7 @@ code {
   background-size: 100%;
   background-clip: text;
   color: transparent;
+  text-shadow: 0 0 70px #E74C3C;
 }
 
 .gradientGreen {
@@ -65,6 +67,7 @@ code {
   background-size: 100%;
   background-clip: text;
   color: transparent;
+  text-shadow: 0 0 50px #82E0AA;
 }
 
 #titlebottom {
@@ -106,61 +109,67 @@ code {
 
 .sectionB {
   left: 65%;
-  top: 85%;
+  top: 95%;
   text-align: right;
 }
 
 .sectionC {
   left: 35%;
-  top: 140%;
+  top: 145%;
   text-align: left;
 }
 
 .sectionD {
   left: 65%;
-  top: 180%;
+  top: 190%;
   text-align: right;
 }
 
 .sectionE {
   left: 35%;
-  top: 215%;
+  top: 235%;
   text-align: left;
 }
 
 .sectionF {
   left: 65%;
-  top: 250%;
+  top: 280%;
   text-align: right;
 }
 
 .sectionG {
   left: 35%;
-  top: 290%;
+  top: 320%;
   text-align: left;
 }
 
 img {
   position: absolute;
   top: 50%;
+  object-fit: cover;
+  object-position: center;
+  width: 30vw;
+  height: 15vw;
+  border-radius: 15px;
+  box-shadow: 0 0 40px black;
 }
 
-#storybook {
+.left {
   right: 105%;
 }
 
-#messy {
+.right {
   left: 105%;
-  width: 30vw;
-  height: 15vw;
-  object-fit: cover;
-  object-position: center;
 }
 
 .bottom {
   position: absolute;
-  height: 327vh;
+  height: 360vh;
   width: 1%;
   pointer-events: none;
   overflow-x: hidden;
+}
+
+#storybook {
+  box-shadow: none;
 }
