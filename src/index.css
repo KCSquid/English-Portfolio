@@ -152,6 +152,11 @@ img {
   height: 15vw;
   border-radius: 15px;
   box-shadow: 0 0 40px black;
+  transition: ease-in-out 0.4s;
+}
+
+img:hover {
+  box-shadow: 0 0 20px black;
 }
 
 .left {

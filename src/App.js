@@ -15,7 +15,7 @@ export default function App() {
         <h1 className='gradientYellow'>Impact...</h1>
         <img className='right' src='https://images.unsplash.com/photo-1543165796-5426273eaab3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'></img>
         <div className='paragraphLeft'>
-          <p>I think the multiple lessons about literary devices have had the most impact on my current learning. Previously, I had no idea what most literary devices were or could not classify what they were (I would think just types of words). Now I can understand how they work and when to use them, and this allows me to write better and will have a great impact in my future 3 years of high school. </p>
+          <p>I think the multiple lessons about literary devices have had the most impact on my current learning. Previously, I had no idea what most literary devices were or could not classify what they were (I would think just types of words). Now I can understand how they work and when to use them, and this allows me to write better which will have a greater impact in my future years of high school. </p>
         </div>
       </div>
 
@@ -23,7 +23,7 @@ export default function App() {
         <h1 className='gradient'>My Work</h1>
         <img className='left' src='https://images.unsplash.com/photo-1517568730816-501aae259c65?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'></img>
         <div className='paragraphRight'>
-          <p>I am choosing to talk about my Flex Project. I think that project, having me very committed to learning a new thing and using different skills to be successful, gave me many different opportunities to work on transferable skills. For one, I had to problem solve by finding solutions to easily memorize my signs. I also used my self-directed learning (taking no learning from others (other than my mandatory interview)) to teach myself how to sign ASL. Finally, I used digital literacy as an extra by:<br /><br />A. creating/coding a website by myself,<br />B: researching how to do the signs,<br />C: writing in my blog about how I did these things.</p>
+          <p>I am choosing to talk about my Flex Project. I think that this project, had me committed to learning a new skill by using different skills to be successful. This gave me many different opportunities to work on transferable skills. For one, I had to problem solve by finding solutions to easily memorize my signs. I also used my self-directed learning (taking no learning from others (other than my mandatory interview)) to teach myself how to sign ASL. Finally, I used digital literacy aswell by:<br /><br />A. creating/coding a website by myself,<br />B: researching how to do the signs,<br />C: writing in my blog about how I did these things.</p>
         </div>
       </div>
 
@@ -31,7 +31,7 @@ export default function App() {
         <h1 className='gradient'>General Use</h1>
         <img className='right' src='https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'></img>
         <div className='paragraphLeft'>
-          <p>I use my digital literacy every single day due to many classes requiring people to use chromebooks to learn, or coding on my computer to make useful tools. Specifically, I used my coding in another course to get a level 4+ by creating an auto formula solver for math className.</p>
+          <p>I use my digital literacy every single day due to many classes requiring people to use chromebooks to learn, or coding on my computer to make useful tools. Specifically, I used my coding in another course to get a level 4+ by creating an auto formula solver for math class.</p>
         </div>
       </div>
 
